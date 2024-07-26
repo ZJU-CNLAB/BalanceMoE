@@ -5,9 +5,11 @@ This repository contains the codes of the BalanceMoE paper submitted to IEEE INF
 ## Installation ##
 ### Prerequisites ###
 PyTorch with CUDA is required. The repository is currently tested with PyTorch v1.10.0 and CUDA 11.3.  
+  
 If the distributed expert feature is enabled, NCCL with P2P communication support, typically versions >=2.9.9.1, is needed.  
 ### Installing ###
 Use `python setup.py install` to install BalanceMoE for training.  
+  
 A more detailed installation procedure can be found in [FastMoE](https://github.com/laekov/fastmoe).  
 ### Quick Start ###
 You can download this code to /root/code folder and run the following scripts:  
