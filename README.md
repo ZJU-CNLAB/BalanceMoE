@@ -14,7 +14,7 @@ A more detailed installation procedure can be found in [FastMoE](https://github.
 ### Quick Start ###
 You can download this code to /root/code folder and run the following scripts:  
 ```
-cd /root/code/balancemoe/examples  
+cd /root/code/BalanceMoE-main/examples  
 torchrun --nnodes 1 --nproc_per_node 8 --rdzv_id 0 --rdzv_backend c10d text_torch_distributed.py
 ```  
 Assume that you have 8 GPUs on a single node and everything works well, you will see that there are 8 workers running at a single node training a DummyMoEModel using the BalanceMoE.
